@@ -1,0 +1,12 @@
+---
+title: Lesson Three
+date: 2023-01-04
+author: John Doe
+slug: lesson-three
+tags: ['lesson']
+id: lesson-three
+---
+
+# Lesson Three
+
+This is the lesson Three.

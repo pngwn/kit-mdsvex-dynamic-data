@@ -1,0 +1,18 @@
+---
+title: Introduction
+date: 2023-01-01
+author: John Doe
+slug: intro
+tags: ['lesson']
+id: intro
+---
+
+<script>
+  	import Counter from '$lib/Counter.svelte';
+</script>
+
+# Introduction
+
+This is the introduction.
+
+<Counter />

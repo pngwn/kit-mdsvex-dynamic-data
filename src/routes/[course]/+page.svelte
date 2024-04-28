@@ -8,10 +8,10 @@
 </svelte:head>
 
 <section>
-	<h1>Welcome to my Learny Thing</h1>
+	<h1>Select your lesson</h1>
 	<div class="welcome">
 		{#each data.courses as course}
-			<a href="/{course.path}">
+			<a href={course.path}>
 				<div class="box">
 					<h2>{course.title}</h2>
 					<svelte:component this={course.content} />

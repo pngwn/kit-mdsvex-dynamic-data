@@ -1,5 +1,9 @@
 <script>
 	export let data;
+
+	$: console.log({ data });
+
+	$: course = data.course;
 </script>
 
 <svelte:head>
@@ -8,21 +12,7 @@
 </svelte:head>
 
 <section>
-	<h1>Welcome to my Learny Thing</h1>
-	<div class="welcome">
-		{#each data.courses as course}
-			<a href="/{course.path}">
-				<div class="box">
-					<h2>{course.title}</h2>
-					<svelte:component this={course.content} />
-				</div>
-			</a>
-		{/each}
-
-		{#if data.courses.length === 0}
-			<p>No courses available</p>
-		{/if}
-	</div>
+	<svelte:component this={course.content} />
 </section>
 
 <style>

@@ -1,0 +1,12 @@
+---
+title: Course One
+date: 2023-01-01
+author: John Doe
+slug: course-one
+tags: ['course']
+id: course-one
+---
+
+# Course One
+
+This is the course description for course one.

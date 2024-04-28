@@ -1,0 +1,12 @@
+---
+title: Course Two
+date: 2023-01-02
+author: Jane Doe
+slug: course-two
+tags: ['course']
+id: course-two
+---
+
+# Course Two
+
+This is the course description for course two.

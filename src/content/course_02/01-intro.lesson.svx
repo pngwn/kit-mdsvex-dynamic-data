@@ -1,0 +1,12 @@
+---
+title: Introduction
+date: 2023-01-01
+author: Jane Doe
+slug: intro
+tags: ['lesson']
+id: intro
+---
+
+# Introduction
+
+This is the introduction.

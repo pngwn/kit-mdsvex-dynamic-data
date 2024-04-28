@@ -1,0 +1,12 @@
+---
+title: Lesson Two
+date: 2023-01-03
+author: Jane Doe
+slug: lesson-two
+tags: ['lesson']
+id: lesson-two
+---
+
+# Lesson Two
+
+This is the lesson Two.
